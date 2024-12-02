@@ -1,6 +1,6 @@
 # log-adaptor
 
-This is a log library for OpenHarmony, that we can use it to replace with `android/log`.
+This is a log library for OpenHarmony, that we can use it to replace with `android/log` for Golang.
 
 ## Usage
 
