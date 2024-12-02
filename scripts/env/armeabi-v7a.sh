@@ -18,5 +18,5 @@ export GOARCH=arm
 export GOOS=android
 export CGO_ENABLED=1
 export LLVMCONFIG=$OHOS_NDK_HOME/native/llvm/bin/llvm-config
-export CGO_CFLAGS="-I${PWD}/include -g -O2 `$LLVMCONFIG --cflags` --target=arm-linux-ohos --sysroot=$OHOS_NDK_HOME/native/sysroot"
+export CGO_CFLAGS="-I${PWD}/include -Wno-atomic-alignment -g -O2 `$LLVMCONFIG --cflags` --target=arm-linux-ohos --sysroot=$OHOS_NDK_HOME/native/sysroot"
 export CGO_LDFLAGS="--target=arm-linux-ohos -fuse-ld=lld -L${PWD}/dist/armeabi-v7a"

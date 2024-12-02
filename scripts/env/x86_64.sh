@@ -12,7 +12,7 @@ export NM=$OHOS_NDK_HOME/native/llvm/bin/llvm-nm \
 export CFLAGS="-target x86_64-linux-ohos --sysroot=${OHOS_NDK_HOME}/native/sysroot -D__MUSL__" \
 export CXXFLAGS="-target x86_64-linux-ohos --sysroot=${OHOS_NDK_HOME}/native/sysroot -D__MUSL__" \
 
-export GOARCH=arm64
+export GOARCH=amd64
 export GOOS=android
 export CGO_ENABLED=1
 export LLVMCONFIG=$OHOS_NDK_HOME/native/llvm/bin/llvm-config
