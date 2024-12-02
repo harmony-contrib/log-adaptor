@@ -29,3 +29,5 @@ This is a log library for OpenHarmony, that we can use it to replace with `andro
    ```
 
    Alternatively, you can forcibly specify the soname in the build output to circumvent this issue.
+
+2. The Golang interface should be invoked within a sub-thread; otherwise, initialization will fail.
