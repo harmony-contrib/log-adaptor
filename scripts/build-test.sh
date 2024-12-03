@@ -7,5 +7,5 @@ build() {
 }
 
 build "arm64-v8a"
-build "armeabi-v7a"
-build "x86_64"
+# build "armeabi-v7a"
+# build "x86_64"

@@ -9,8 +9,8 @@ This is a log library for OpenHarmony, that we can use it to replace with `andro
 2. Add flags in your build command for Golang.
 
    ```bash
-   export CGO_FLAGS = "-I/path/to/include"
-   export CGO_LDFLAGS = "-L/path/to/dist/${ARCH}"
+   export CGO_CFLAGS="-I/path/to/include"
+   export CGO_LDFLAGS="-L/path/to/dist/${ARCH}"
    ```
 
 3. Copy `dist/${ARCH}/liblog.so` and add to your ohos project.
